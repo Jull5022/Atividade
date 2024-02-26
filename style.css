@@ -1,0 +1,91 @@
+/*/////////////////  Júlio César módulo 3 turma "C" ////////////  */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Baloo 2", sans-serif;
+    background-color: #f8f8f8;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 48px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+h1{
+    color:#1066E0;
+}
+h2{
+    width: 100%;
+    color: #1066E0;
+    margin-bottom: 3px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+}
+.card{
+    padding: 10px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resultado{
+    color: #1066E0;
+    font-size: 30px;
+}
+input{
+    max-width: 40rem;
+    border-radius: 9px;
+    border: 2px solid #ececec;
+    background: #FFF;
+    height: 30px;
+    outline-color: #1066E0;
+    cursor: pointer;
+}
+.peso{
+    width: 25%;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+}
+.nome{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    max-width: 40rem;
+    border-radius: 18px;
+    border: 2px solid #F4F4F4;
+    background: #1066E0;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+/*/////////////////  Júlio César módulo 3 turma "C" ////////////  */
